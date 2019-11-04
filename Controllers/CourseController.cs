@@ -25,7 +25,7 @@ namespace UniCourses.Controllers
         // GET: api/<controller>
         [HttpGet]
         [Route("GetUniversity")]
-        public async Task<IActionResult> GetCategories()
+        public async Task<IActionResult> GetUniversity()
         {
             try
             {
